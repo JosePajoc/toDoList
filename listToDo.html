@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="icon" href="imagenes/icono-checklist.png">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="logica.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h2>Control de tareas</h2>
+        <form autocomplete="off">
+            <label>Título:<br><input type="text" id="tituloT"></label>
+            <label>Actividad:<br>
+                <textarea id="contenidoT" rows="3" cols="30"></textarea></label>
+            <br>
+            <button type="button" id="btnAgregar">Agregar ✔</button>
+        </form>
+
+        <div id="contenedor">
+            <!-- <div class="tarea">
+                <h3>Título de la tarea</h3>
+                <p>Contenido de la tarea</p>
+            </div> -->
+        </div>
+    </main>
+</body>
+
+</html>
