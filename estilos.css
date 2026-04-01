@@ -27,6 +27,12 @@ main, form{
     }
 }
 
+@media(max-width: 500px){
+    .tarea{
+        width: 80dvw;
+    }
+}
+
 #contenedor{
     /* border: 1px white solid;
     width: 80dvw; */
